@@ -6,7 +6,7 @@ Repository with examples of API usage for site [https://mvsep.com](https://mvsep
 
 ### Simple example 1
 
-* [python_example1/api_example.py](api_example.py) - this file allows to call 3 different methods:
+[api_example.py](python_example1/api_example.py) - this file allows to call 3 different methods:
 
 1) Get list of all possible types of separation:
 
