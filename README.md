@@ -25,7 +25,7 @@ In this example you provide path to folder, which contains audio-files. Script p
 
 ### Example 3
 
-This example uses `MVSEPClient` class to create separations. It also automatically separate many files at once and download them after finish.
+This example uses `MVSEPClient` class to create separations. It also automatically separate many files at once and download them after finish. Initial version proposed by [@jarredou](https://github.com/jarredou).
 
 [mvsep_client.py](python_example3/mvsep_client.py)
 * `get_types` - get list of all possible types of separation
