@@ -32,9 +32,9 @@ For example if you want to download files from previous step you can use this co
 python3 api_example.py get_result --hash 20250128141843-f0bb276157-mixture.wav
 ```
 
-### Run without python
+### Run without python on Windows
 
-We create exe version which can be run on Windows without python installed. To run just replace `python3 api_example.py` on `api_example_win.exe`. For example:
+We create [exe version](python_example1/api_example_win.exe) which can be run on Windows without python installed. To run just replace `python3 api_example.py` on `api_example_win.exe`. For example:
 
 ```bash
 api_example_win.exe get_types
