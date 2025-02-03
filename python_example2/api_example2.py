@@ -153,7 +153,7 @@ def wait_to_response(hash, args):
 def main():
     if len(sys.argv) > 1:
         args = parse_args(None)
-        if args.command == 'create_separation':
+        if args.command == 'separate':
             if not os.path.isdir(args.input):
                 print('--input parameter must be a directory!')
                 exit()
