@@ -18,3 +18,11 @@ For example if you have `input.mp3`, `input2.mp3` files located in folder `audio
 python3 api_example2.py separate --input "./audio/" --token DsemTWkdNyChZZWEjnHKVQAcjC543t --sep_type 48 --add_opt1 1
 ```
 It will automatically put files in queue and download them when they are ready.
+
+### Run without python on Windows
+
+We create [exe version](python_example2/api_example2_win.exe) which can be run on Windows without python installed. To run just replace `python3 api_example2.py` on `api_example2_win.exe`. For example:
+
+```bash
+api_example2_win.exe get_types
+```
