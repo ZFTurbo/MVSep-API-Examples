@@ -1,6 +1,6 @@
 ### Simple example 1
 
-[api_example.py](python_example1/api_example.py) - this file allows to call 3 different methods:
+[api_example.py](api_example.py) - this file allows to call 3 different methods:
 
 1) Get list of all possible types of separation:
 ```bash
@@ -34,7 +34,7 @@ python3 api_example.py get_result --hash 20250128141843-f0bb276157-mixture.wav
 
 ### Run without python on Windows
 
-We create [exe version](python_example1/api_example_win.exe) which can be run on Windows without python installed. To run just replace `python3 api_example.py` on `api_example_win.exe`. For example:
+We create [exe version](api_example_win.exe) which can be run on Windows without python installed. To run just replace `python3 api_example.py` on `api_example_win.exe`. For example:
 
 ```bash
 api_example_win.exe get_types
