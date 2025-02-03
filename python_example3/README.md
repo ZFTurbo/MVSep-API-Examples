@@ -18,3 +18,11 @@ For example if you have `input.mp3`, `input2.mp3` files located in folder `audio
 python3 mvsep_client.py separate --input "./audio/" --token DsemTWkdNyChZZWEjnHKVQAcjC543t --sep_type 48 --add_opt1 1
 ```
 It will automatically put files in queue and download them when they are ready.
+
+### Run without python on Windows
+
+We create [exe version](python_example3/mvsep_client_win.exe) which can be run on Windows without python installed. To run just replace `python3 mvsep_client.py` on `mvsep_client_win.exe`. For example:
+
+```bash
+mvsep_client_win.exe get_types
+```
