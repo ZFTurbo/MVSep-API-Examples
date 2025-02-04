@@ -1,6 +1,6 @@
 # MVSep API Examples
 
-Repository with examples of API usage for site [https://mvsep.com](https://mvsep.com)
+Repository with examples of API usage for site [https://mvsep.com](https://mvsep.com). Full API documentation is available [here](https://mvsep.com/en/full_api). 
 
 ## Python examples
 
