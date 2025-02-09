@@ -41,7 +41,7 @@ class MVSEPClient:
                     files=files,
                     headers=self.headers,
                     stream=stream,
-                    timeout=30
+                    timeout=(600, 1200)
                 )
                 
                 self._log_debug(f"Response status: {response.status_code}")
