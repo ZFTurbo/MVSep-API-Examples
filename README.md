@@ -41,4 +41,4 @@ Simple GUI for creating separation using MVSep API. You can run it with 2 method
 
 #### Interface
 
-![Interface for MVSep GUI](python_example4_gui/images/GUI-Interface.png)
+<kbd>![Interface for MVSep GUI](python_example4_gui/images/GUI-Interface.png)</kbd>
