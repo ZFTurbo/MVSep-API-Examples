@@ -6,6 +6,10 @@ This document serves as a user guide for utilizing the graphical user interface 
 
 The application is built using the PyQt6 framework, which is widely used for developing desktop applications with graphical interfaces. Its primary goal is to simplify the process of uploading audio files and configuring various sound-processing algorithms. This significantly enhances user interaction with MVSep.com by enabling efficient handling of large datasets and faster results delivery.
 
+### Interface 
+
+![Interface for MVSep GUI](images/GUI-Interface.png)
+
 ## Key Features
 
 1. **File Upload:**
