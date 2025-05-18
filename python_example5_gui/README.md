@@ -8,7 +8,7 @@ The application is built using the PyQt6 framework, which is widely used for dev
 
 ### Interface 
 
-![Interface for MVSep GUI](images/GUI-Interface.png)
+<kbd>![Interface for MVSep GUI](images/GUI-Interface.png)</kbd>
 
 ## Key Features
 
