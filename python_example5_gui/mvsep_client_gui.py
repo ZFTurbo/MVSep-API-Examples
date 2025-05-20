@@ -525,7 +525,7 @@ class MainWindow(QWidget):
 
     def select_file(self):
         # Opening dialog to select file(s)
-        selected_files_tuple = QFileDialog.getOpenFileNames(self, "Select File", "", "Audio Files (*.mp3 *.wav)")
+        selected_files_tuple = QFileDialog.getOpenFileNames(self, "Select File", "", "Audio Files (*.mp3 *.wav *.flac *m4a *mp4)")
         if selected_files_tuple and selected_files_tuple[0]:  # Check if files were selected
             self.selected_files = selected_files_tuple[0]
             print(f"Files selected:")
