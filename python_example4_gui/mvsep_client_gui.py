@@ -158,7 +158,7 @@ def create_separation(path_to_file, api_token, sep_type, add_opt1, add_opt2, add
         'add_opt2': (None, add_opt2),
         'add_opt3': (None, add_opt3),
         'output_format': (None, '1'),
-        'is_demo': (None, '1'),
+        'is_demo': (None, '0'),
     }
     print("files")
     print(files)

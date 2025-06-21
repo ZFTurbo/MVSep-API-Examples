@@ -14,7 +14,7 @@ def create_separation(args):
         'add_opt1': (None, args.add_opt1),
         'add_opt2': (None, args.add_opt2),
         'output_format': (None, '1'),
-        'is_demo': (None, '1'),
+        'is_demo': (None, '0'),
     }
 
     response = requests.post('https://mvsep.com/api/separation/create', files=files)
